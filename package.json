@@ -1,0 +1,25 @@
+{
+  "name": "generate-hmac-auth-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node src/scripts/generate_hmac_auth_token.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fhyfirman/generate-hmac-auth-token.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fhyfirman/generate-hmac-auth-token/issues"
+  },
+  "homepage": "https://github.com/fhyfirman/generate-hmac-auth-token#readme",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.3.1"
+  }
+}
