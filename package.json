@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate": "node src/scripts/generate_hmac_auth_token.js"
+    "generate_token": "node src/scripts/generate_hmac_auth_token.js"
   },
   "repository": {
     "type": "git",
